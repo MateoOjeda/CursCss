@@ -1,0 +1,110 @@
+/* 
+dynamic
+  :link (links) => link no visitado
+  :visited (links) => link visitado
+  :hover => al poner el mouse sobre el elemento
+  :active (links) => el momento del click
+  :focus => cuando el elemento tiene el foco
+
+target
+  :target => elemento que es objetivo de un marcador o ancla
+
+languague
+  :lang() => elemento que contiene el atributo lang que especifiquemos
+
+UI states
+  :enabled
+  :disabled
+  :checked
+  :in-range
+  :out-of-range
+  :required
+  :optional
+  :valid
+  :invalid
+  */
+
+/* .link:link{
+    color: red;
+}
+.link:visited{
+    color: royalblue;
+}
+
+.link:active{
+    color: seagreen;
+    background-color: sienna;
+} */
+
+.title:hover{
+    color: fuchsia;
+}
+
+/* .button{
+    text-decoration: none;
+    display: inline-block;
+    background-color: forestgreen;
+    color: #fff;
+    padding: .5em;
+    border-radius: 10px;
+}
+.button:active{
+    transform: scale(.9);
+}
+
+.button:hover{
+    color: forestgreen;
+    background-color: #fff;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+
+.input:focus{
+    background-color: gray;
+} */
+
+/* .text{
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+.menu{
+    background-color: lightskyblue;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.text:target{
+    padding-top: 75px;
+} */
+
+.span{
+    display: block;
+}
+.span:lang(en){
+    color: red;
+}
+.span:lang(es){
+    color: blue;
+}
+
+.input:enabled{
+    background-color: red;
+}
+.input:disabled{
+    background-color: yellow;
+}
+
+.input:checked + label{
+    font-size: 2em;
+}
+.input:in-range{
+    background-color: violet;
+}
+.input:out-of-range{
+    background-color: tomato;
+}

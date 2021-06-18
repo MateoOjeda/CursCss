@@ -1,0 +1,21 @@
+:root{
+    --color: red;
+    --border: 3px solid yellow;
+}
+.paragraph{
+    color: var(--color);
+}
+.article{
+    --color: green;
+}
+
+.check:checked + .box{
+    --color: violet ;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color);
+    border: var(--border);
+}

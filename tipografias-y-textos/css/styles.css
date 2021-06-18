@@ -1,0 +1,109 @@
+/* 
+  a los tipos de letras que existen se les denomina fuente o tipografia
+
+  *FAMILIAS TIPOGRAFIAS 
+     tiene nombre propio
+          Arial, Times New Roman, open sans, ubuntu
+  *FAMILIAS GENERICAS O SEGURAS
+     su nombre se basa en sus caracteristicas
+        -serif: tienen un adorno en los remantes
+        -sans-serif: tienen corte seco en los remates
+        -cursive: emulan tipografias manuscritas
+        -fantasy: letra decorativa 
+
+
+  *FONT
+     -font-family: establece la familia tipografica se utiliza el nombre propio de la fuente o una familia, se recomienda utilizar SIMEPRE fuentes de reserva 
+       ('times new roman', times, serif)
+    -font-size: establece el tamaño de fuente
+        se define en unidades:
+           px: pixeles
+           em: medida relativa al contexto (al padre)
+           rem: medida relativa al HTML
+           %: medida relativa al tamaño actual
+
+           vh: medida relativa al height del viewport
+           vw: medida relativa al width del viewport
+           vmin: medida relativa al valor minimo de viewport
+           vmax: medida relativa al valor maximo de viewport
+    -font-weight: establece el grosor de la fuente
+        bold | nomal | 100-900
+    -font-style: establece el estilo de la tipografia
+        normal | italic |oblique
+
+
+  *TEXT
+    -text-trasform: transforma el texto a mayusculas,minusculas, etc.
+         lowercase (minuscula) | uppercase (mayusculas) | capitalize (primero letra de cada palabra en mayuscula) 
+    -text-align: alinea el texto  del elemento a la izquierda,derecha, etc. SOLO ELEMENTOS DE BLOQUE (exepto en botones, que aunque sean de elemtos en linea funcionan)
+        center | left | right | justify;
+    -text-decoration: establece la decoracion del texto
+        oveline | line-throught | underline | none
+    -text-indent: mueve la primera linea de un texto. SOLO ELEMENTOS DE BLOQUE
+
+  
+  *OTHER
+    -line-height: establece la altura de la linea
+    -linea-spacing: establece la altura de las letras con una medida en cualquier unidad 
+ 
+*/
+
+/* body{
+    font-family: 'Major Mono Display', monospace;
+} */
+
+.title{
+    /* /* font-family: serif;
+    font-family: sans-serif;
+    font-family: cursive; */
+    /* font-family: monospace; */
+
+    /* font-size: 20px; */
+    font-size: 10vmin;
+    /* font-style: italic; */
+    /* font-style: oblique; */
+
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */ 
+    
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'myfuente', sans-serif;
+}
+.span{
+    /* font-size: 2rem; */
+}
+
+.link{
+    /* display: block;
+    text-align: center; */
+    text-decoration: line-through;
+}
+
+.paragraph{
+    /* font-family: monospace; */
+    /* font-weight: lighter; */
+    /* text-align: center; */
+    text-indent: 30px;  /*<== -20 para la izquierda  20==> para la derecha */
+
+    letter-spacing: 2px;
+
+    font-family: 'Major Mono Display', monospace;
+
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.box-item{
+    line-height: 100px;
+    text-align: center;
+}
+
+@font-face{
+    src: url('assets/font/sgadow/Shadow.ttf');
+    font-family:'myfuente';
+}
+

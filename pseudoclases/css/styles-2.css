@@ -1,0 +1,33 @@
+/* .paragraph{
+    padding: .5em;
+    background-color: lightskyblue;
+}
+
+.paragraph:empty{
+    all: unset;
+} */
+
+/* .paragraph:first-child{
+    background-color: black;
+}
+.paragraph:last-child{
+    background-color: blue;
+} */
+/* .paragraph:nth-child(2){
+    background-color: brown;
+} */
+/* .paragraph:nth-child(3n){
+    background-color: brown;
+} */
+/* .paragraph:nth-child(3n + 1){
+    background-color: brown;
+} */
+
+/* ODD numeros pares */
+.paragraph:nth-last-child(odd){  
+    background-color: brown;
+}
+/* EVEN numeros inpares */
+.paragraph:nth-last-child(even){
+    background-color: brown;
+}

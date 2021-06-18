@@ -1,0 +1,67 @@
+/* .img-container{
+    text-align: center;
+    background: chartreuse;
+}
+
+.img{
+    max-width: 100%;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.img-container img,
+.img-container span{
+    vertical-align: middle;
+} */
+
+/* .img-container{
+    display: table;
+}
+.img-container span{
+    display: table-cell;
+} */
+
+/* .img-container{
+    display: flex;
+    align-items: center;
+} */
+
+
+
+/*.img-1{
+    width: 250px;
+    height: 450px;
+    background: red;
+    object-fit: contain; 
+    object-fit: cover; 
+    object-fit: none; 
+    object-fit: scale-down; 
+    object-position: left; 
+    object-position: center; 
+    object-position: right; 
+    object-position: 50px; 
+    transition: object-position 5s;
+} 
+
+img.hover{
+    object-position: right;
+} */
+
+.img-1{
+    max-width: 100%;
+    /* filter: blur(10px); */
+    /* filter: brightness(.20); */
+    /* filter:contrast(8); */
+    /* filter: drop-shadow(h-shadow v-shadow bluer spread color); */
+    /* filter: drop-shadow(10px 10px 5px black); */
+    /* filter: grayscale(.5); */
+    /* filter: hue-rotate(45 deg); */
+    /* filter: invert(.7); */
+    /* filter: opacity(10); */
+    /* filter: saturate(0); */
+    filter: sepia(1);
+}
+.img-1:hover{
+    filter: none;
+}
